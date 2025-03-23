@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* General Body Styling */
+body.bg-light {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Improve Text Readability */
+p, li {
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Enhance Icons */
+.fa {
+    vertical-align: middle;
+    font-size: 20px;
+    width: 25px;
+}
+
+/* Clarify Visual Hierarchy */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+h5.text-muted {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+h6.w3-text-teal {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #009688; /* Teal color retained */
+}
+
+/* Style Skill and Tool Bars */
+.bg-light.rounded-3 {
+    height: 10px;
+    margin-bottom: 15px;
+    background-color: #e0e0e0;
+}
+
+.bg-teal {
+    background-color: #009688; /* Teal color for bars */
+}
+
+/* Refine Card Styling */
+.card {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Styling */
+.card-img-top {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #009688;
+}
+
+/* Section Dividers */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px 0;
+}
+
+/* Footer Styling */
+footer.bg-teal {
+    background-color: #009688;
+    color: white;
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #f1f1f1;
+}
+
+footer .fa {
+    font-size: 36px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        padding: 0 10px;
+    }
+    .col-md-4, .col-md-8 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+}
